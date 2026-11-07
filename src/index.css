@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  --font-heading: 'Space Mono', sans-serif;
+  --font-body:    'Plus Jakarta Sans', serif;
+}
+
+/* Apply fonts globally — no classes needed anywhere */
+body {
+  font-family: var(--font-body);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+}
+
+.logo {
+  font-family: var(--font-heading);
+}
