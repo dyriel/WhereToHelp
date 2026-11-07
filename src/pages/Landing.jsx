@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { useAuth } from '../context/AuthContext'
 import LoginForm from '../components/auth/LoginForm'
-import SignupForm from '../components/auth/SignupForm'
+import SignupForm from '../components/auth/SignUpForm'
 
 export default function Landing() {
   const { user } = useAuth()
